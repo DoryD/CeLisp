@@ -6,3 +6,4 @@
 (format t "Fahrenheit to Celcius ~%")
 (defun fc (fc) (format t "C: ~2$ ~%" (*(- fc 32)(/ 5 9))))
 (fc (read))
+ 
